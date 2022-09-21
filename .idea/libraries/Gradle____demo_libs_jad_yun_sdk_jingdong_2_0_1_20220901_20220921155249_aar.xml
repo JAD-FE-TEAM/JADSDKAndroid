@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./demo/libs/jad_yun_sdk_jingdong_2.0.1_20220901_20220921155249.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4f809e3c46b331b65490045e3eabd421/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220921155249/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4f809e3c46b331b65490045e3eabd421/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220921155249/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4f809e3c46b331b65490045e3eabd421/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220921155249/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

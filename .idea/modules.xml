@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JADYunAndroidPackage.iml" filepath="$PROJECT_DIR$/.idea/modules/JADYunAndroidPackage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/JADYunAndroidPackage.demo.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/JADYunAndroidPackage.demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jad_yun_banner/JADYunAndroidPackage.jad_yun_banner.iml" filepath="$PROJECT_DIR$/.idea/modules/jad_yun_banner/JADYunAndroidPackage.jad_yun_banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jad_yun_core/JADYunAndroidPackage.jad_yun_core.iml" filepath="$PROJECT_DIR$/.idea/modules/jad_yun_core/JADYunAndroidPackage.jad_yun_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jad_yun_feed/JADYunAndroidPackage.jad_yun_feed.iml" filepath="$PROJECT_DIR$/.idea/modules/jad_yun_feed/JADYunAndroidPackage.jad_yun_feed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jad_yun_interstitial/JADYunAndroidPackage.jad_yun_interstitial.iml" filepath="$PROJECT_DIR$/.idea/modules/jad_yun_interstitial/JADYunAndroidPackage.jad_yun_interstitial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jad_yun_native/JADYunAndroidPackage.jad_yun_native.iml" filepath="$PROJECT_DIR$/.idea/modules/jad_yun_native/JADYunAndroidPackage.jad_yun_native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jad_yun_sdk/JADYunAndroidPackage.jad_yun_sdk.iml" filepath="$PROJECT_DIR$/.idea/modules/jad_yun_sdk/JADYunAndroidPackage.jad_yun_sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jad_yun_splash/JADYunAndroidPackage.jad_yun_splash.iml" filepath="$PROJECT_DIR$/.idea/modules/jad_yun_splash/JADYunAndroidPackage.jad_yun_splash.iml" />
+    </modules>
+  </component>
+</project>
