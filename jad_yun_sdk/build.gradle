@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.kezong.fat-aar'
+apply from: "$project.rootDir/sdk-build-config.gradle"
+apply from: "$project.rootDir/sdk-publish-config.gradle"
+
+/**
+ * 此模块只在打整体包的时候使用，不会开发具体代码，故这里只配置有打正式包的依赖
+ */
+dependencies {
+    embed project(':jad_yun_core')
+    embed project(':jad_yun_banner')
+    embed project(':jad_yun_splash')
+    embed project(':jad_yun_interstitial')
+    embed project(':jad_yun_feed')
+    embed project(':jad_yun_native')
+}

@@ -1,0 +1,9 @@
+apply plugin: 'com.android.library'
+apply from: "$project.rootDir/sdk-build-config.gradle"
+apply from: "$project.rootDir/sdk-publish-config.gradle"
+
+if (rootProject.ext.isRelease == true) {
+    apply from: "$project.rootDir/core-dependencies-release.gradle"
+} else {
+    apply from: "$project.rootDir/core-dependencies-debug.gradle"
+}

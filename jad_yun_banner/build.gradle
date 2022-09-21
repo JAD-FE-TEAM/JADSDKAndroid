@@ -1,0 +1,11 @@
+apply plugin: 'com.android.library'
+apply from: "$project.rootDir/sdk-build-config.gradle"
+apply from: "$project.rootDir/jacoco.gradle"
+apply from: "$project.rootDir/sdk-publish-config.gradle"
+
+// 此模块的个性化依赖
+dependencies {
+    implementation project(path: ':jad_yun_core')
+    implementation project(path: ':logger')
+    implementation project(path: ':utils')
+}
