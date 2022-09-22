@@ -13,7 +13,8 @@ afterEvaluate {
 //                from components.jingdongRelease
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.github.JAD-FE-TEAM'
+                groupId = 'com.github.jingdong'
+//                groupId = 'com.github.JAD-FE-TEAM'
                 artifactId = project.name
                 version = rootProject.ext.sdkVersionName
             }
