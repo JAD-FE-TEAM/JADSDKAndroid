@@ -1,0 +1,6 @@
+/**
+ * 打正式包时，Demo要依赖的SDK
+ */
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['jad_yun_sdk_jingdong_*.aar'])
+}
