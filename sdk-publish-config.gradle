@@ -1,4 +1,5 @@
 apply plugin: 'maven-publish'
+apply from: "$project.rootDir/sdk-variable-config.gradle"
 
 // Because the components are created only during the afterEvaluate phase, you must
 // configure your publications using the afterEvaluate() lifecycle method.
@@ -46,11 +47,5 @@ afterEvaluate {
 //                url = versionName.endsWith('SNAPSHOT') ? SNAPSHOT_REPOSITORY_URL : RELEASE_REPOSITORY_URL
 //            }
 //        }
-    }
-}
-
-task comps {
-    afterEvaluate {
-        println("Components2: " + components*.name)
     }
 }

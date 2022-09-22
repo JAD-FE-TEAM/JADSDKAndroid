@@ -34,7 +34,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../jad_yun_sdk/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../jad_yun_sdk/build" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

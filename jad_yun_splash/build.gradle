@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-//apply from: "$project.rootDir/sdk-build-config.gradle"
-apply from: "$project.rootDir/jacoco.gradle"
+apply from: "$project.rootDir/sdk-build-config.gradle"
+//apply from: "$project.rootDir/jacoco.gradle"
 apply from: "$project.rootDir/sdk-publish-config.gradle"
 
