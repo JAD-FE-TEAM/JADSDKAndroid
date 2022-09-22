@@ -1,0 +1,9 @@
+# Please add these rules to your existing keep rules in order to suppress warnings.
+# This is generated automatically by the Android Gradle plugin.
+-dontwarn com.jd.ad.sdk.dl.event.EventReporter$ClickFrom
+-dontwarn com.jd.ad.sdk.lottie.FontAssetDelegate
+-dontwarn com.jd.ad.sdk.lottie.ImageAssetDelegate
+-dontwarn com.jd.ad.sdk.lottie.LottieComposition
+-dontwarn com.jd.ad.sdk.lottie.LottieCompositionFactory
+-dontwarn com.jd.ad.sdk.lottie.LottieImageAsset
+-dontwarn com.jd.ad.sdk.lottie.LottieResult

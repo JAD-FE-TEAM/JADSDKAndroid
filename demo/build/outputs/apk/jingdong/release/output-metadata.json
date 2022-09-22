@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.jd.sdkceshiandroid",
+  "variantName": "jingdongRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0.33",
+      "outputFile": "JADYunAndroidPackage_jingdong_1.0.33_1_20220922155812.apk"
+    }
+  ],
+  "elementType": "File"
+}

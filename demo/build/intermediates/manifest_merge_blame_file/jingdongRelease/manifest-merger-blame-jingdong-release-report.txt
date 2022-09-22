@@ -1,0 +1,358 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jd.sdkceshiandroid"
+4    android:versionCode="1"
+5    android:versionName="1.0.33" >
+6
+7    <uses-sdk
+7-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:24:5-58
+8        android:minSdkVersion="16"
+8-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:24:5-58
+9        android:targetSdkVersion="31" />
+9-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:24:5-58
+10
+11    <!-- 必要权限 -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:7:5-67
+12-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:7:22-64
+13
+14    <!-- 可选权限 -->
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:10:5-75
+15-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:10:22-72
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:11:5-79
+16-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:12:5-81
+17-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:13:5-80
+18-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:13:22-77
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:14:5-81
+19-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:14:22-78
+20
+21    <!--
+22        可选，SDK提供 “获取地理位置权限” 和 “不给予地理位置权限，开发者传入地理位置参数” 两种方式上报用户位置，
+23        两种方式均可不选，添加位置权限或参数将帮助投放定位广告
+24    -->
+25    <!-- 请注意：无论通过何种方式提供给SDK用户地理位置，均需向用户声明地理位置权限将应用于广告投放，不强制获取地理位置信息 -->
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:19:5-79
+26-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:19:22-76
+27    <!--
+28    建议添加“query_all_package”权限，京东广告将通过此权限在Android R系统上判定广告对应的应用是否在用户的app上安装，
+29    避免投放错误的广告，以此提高用户的广告体验。若添加此权限，需要在您的用户隐私文档中声明！
+30    -->
+31    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+31-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:22:5-77
+31-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:22:22-74
+32
+33    <queries>
+33-->[jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c23f0e776f0d2202fb3484f382f9099f/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804/AndroidManifest.xml:11:5-15:15
+34        <intent>
+34-->[jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c23f0e776f0d2202fb3484f382f9099f/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804/AndroidManifest.xml:12:9-14:18
+35            <action android:name="android.intent.action.MAIN" />
+35-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:69:17-69
+35-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:69:25-66
+36        </intent>
+37    </queries>
+38
+39    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" />
+39-->[oaid_sdk_1.0.23.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c48bd8f7f532599720a02ddfb8377d4b/transformed/jetified-oaid_sdk_1.0.23/AndroidManifest.xml:13:5-76
+39-->[oaid_sdk_1.0.23.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c48bd8f7f532599720a02ddfb8377d4b/transformed/jetified-oaid_sdk_1.0.23/AndroidManifest.xml:13:22-73
+40    <uses-permission android:name="freemme.permission.msa" /> <!-- Android12 包含使用 intent 过滤器的 activity、服务或广播接收器，您必须为这些应用组件显式声明 android:exported 属性。 -->
+40-->[oaid_sdk_1.0.23.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c48bd8f7f532599720a02ddfb8377d4b/transformed/jetified-oaid_sdk_1.0.23/AndroidManifest.xml:15:5-62
+40-->[oaid_sdk_1.0.23.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c48bd8f7f532599720a02ddfb8377d4b/transformed/jetified-oaid_sdk_1.0.23/AndroidManifest.xml:15:22-59
+41    <application
+41-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:26:5-161:19
+42        android:name="com.jd.ad.demo.DemoApplication"
+42-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:27:9-40
+43        android:allowBackup="false"
+43-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:28:9-36
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/099f3f65557ddd003fd9d6c91253ca00/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:29:9-43
+46        android:label="@string/app_name"
+46-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:30:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:31:9-54
+48        android:theme="@style/Theme.App" >
+48-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:32:9-41
+49        <activity
+49-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:33:9-35:40
+50            android:name="com.jd.ad.demo.expressad.feed.EFeedAdSimulateActivity"
+50-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:34:13-67
+51            android:exported="false" />
+51-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:35:13-37
+52        <activity
+52-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:36:9-38:40
+53            android:name="com.jd.ad.demo.expressad.feed.EFeedAdScrollShowActivity"
+53-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:37:13-69
+54            android:exported="false" />
+54-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:38:13-37
+55        <activity
+55-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:39:9-41:40
+56            android:name="com.jd.ad.demo.expressad.feed.EFeedAdScrollActivity"
+56-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:40:13-65
+57            android:exported="false" />
+57-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:41:13-37
+58        <activity
+58-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:42:9-44:40
+59            android:name="com.jd.ad.demo.expressad.feed.EFeedAdListShowActivity"
+59-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:43:13-67
+60            android:exported="false" />
+60-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:44:13-37
+61        <activity
+61-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:45:9-47:40
+62            android:name="com.jd.ad.demo.expressad.feed.EFeedAdShowActivity"
+62-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:46:13-63
+63            android:exported="false" />
+63-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:47:13-37
+64        <activity
+64-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:48:9-50:40
+65            android:name="com.jd.ad.demo.expressad.feed.EFeedAdRecyclerShowActivity"
+65-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:49:13-71
+66            android:exported="false" />
+66-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:50:13-37
+67        <activity
+67-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:51:9-53:40
+68            android:name="com.jd.ad.demo.expressad.feed.EFeedAdRecyclerActivity"
+68-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:52:13-67
+69            android:exported="false" />
+69-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:53:13-37
+70
+71        <meta-data
+71-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:55:9-57:35
+72            android:name="android.max_aspect"
+72-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:56:13-46
+73            android:value="2.4" />
+73-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:57:13-32
+74
+75        <activity
+75-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:59:9-62:51
+76            android:name="com.jd.ad.demo.DemoMainActivity"
+76-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:60:13-45
+77            android:exported="false"
+77-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:61:13-37
+78            android:launchMode="singleInstance" />
+78-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:62:13-48
+79        <activity
+79-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:63:9-72:20
+80            android:name="com.jd.ad.demo.expressad.splash.ESplashAdActivity"
+80-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:64:13-63
+81            android:exported="true"
+81-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:65:13-36
+82            android:screenOrientation="portrait"
+82-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:66:13-49
+83            android:theme="@style/SplashTheme" >
+83-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:67:13-47
+84            <intent-filter>
+84-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:68:13-71:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:69:17-69
+85-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:69:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:70:17-77
+87-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:70:27-74
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:73:9-77:60
+91            android:name="com.jd.ad.demo.expressad.splash.ESplashManagerActivity"
+91-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:74:13-68
+92            android:exported="false"
+92-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:75:13-37
+93            android:screenOrientation="portrait"
+93-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:76:13-49
+94            android:theme="@style/Theme.App.TransStatus" />
+94-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:77:13-57
+95        <activity
+95-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:78:9-82:60
+96            android:name="com.jd.ad.demo.expressad.splash.ESplashMultiRequestActivity"
+96-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:79:13-73
+97            android:exported="false"
+97-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:80:13-37
+98            android:screenOrientation="portrait"
+98-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:81:13-49
+99            android:theme="@style/Theme.App.TransStatus" />
+99-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:82:13-57
+100        <activity
+100-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:83:9-88:60
+101            android:name="com.jd.ad.demo.expressad.splash.EMultiSplashAdActivity"
+101-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:84:13-68
+102            android:exported="false"
+102-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:85:13-37
+103            android:process="com.jd.process.splash"
+103-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:86:13-52
+104            android:screenOrientation="portrait"
+104-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:87:13-49
+105            android:theme="@style/Theme.App.TransStatus" />
+105-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:88:13-57
+106        <activity
+106-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:89:9-92:36
+107            android:name="com.jd.ad.demo.expressad.banner.EBannerAdActivity"
+107-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:90:13-63
+108            android:exported="false"
+108-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:91:13-37
+109            android:label="模板横幅" />
+109-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:92:13-33
+110        <activity
+110-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:93:9-95:40
+111            android:name="com.jd.ad.demo.expressad.interstitial.EInterstitialAdActivity"
+111-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:94:13-75
+112            android:exported="false" />
+112-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:95:13-37
+113        <activity
+113-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:96:9-98:40
+114            android:name="com.jd.ad.demo.expressad.feed.EFeedManagerActivity"
+114-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:97:13-64
+115            android:exported="false" />
+115-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:98:13-37
+116        <activity
+116-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:99:9-101:40
+117            android:name="com.jd.ad.demo.expressad.feed.EFeedAdActivity"
+117-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:100:13-59
+118            android:exported="false" />
+118-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:101:13-37
+119        <activity
+119-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:102:9-104:40
+120            android:name="com.jd.ad.demo.expressad.feed.EFeedAdListActivity"
+120-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:103:13-63
+121            android:exported="false" />
+121-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:104:13-37
+122        <activity
+122-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:105:9-107:40
+123            android:name="com.jd.ad.demo.nativead.splash.NSplashAdManagerActivity"
+123-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:106:13-69
+124            android:exported="false" />
+124-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:107:13-37
+125        <activity
+125-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:108:9-112:50
+126            android:name="com.jd.ad.demo.nativead.splash.NSplashAdActivity"
+126-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:109:13-62
+127            android:exported="false"
+127-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:110:13-37
+128            android:screenOrientation="portrait"
+128-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:111:13-49
+129            android:theme="@style/SplashTheme" />
+129-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:112:13-47
+130        <activity
+130-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:113:9-115:40
+131            android:name="com.jd.ad.demo.nativead.banner.NBannerAdActivity"
+131-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:114:13-62
+132            android:exported="false" />
+132-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:115:13-37
+133        <activity
+133-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:116:9-118:40
+134            android:name="com.jd.ad.demo.nativead.interstitial.NInterstitialAdActivity"
+134-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:117:13-74
+135            android:exported="false" />
+135-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:118:13-37
+136        <activity
+136-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:119:9-121:40
+137            android:name="com.jd.ad.demo.nativead.feed.NFeedAdActivity"
+137-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:120:13-58
+138            android:exported="false" />
+138-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:121:13-37
+139        <activity
+139-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:122:9-124:40
+140            android:name="com.jd.ad.demo.simple.SimpleMainActivity"
+140-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:123:13-54
+141            android:exported="false" />
+141-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:124:13-37
+142        <activity
+142-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:125:9-127:40
+143            android:name="com.jd.ad.demo.simple.ESplashCaseActivity"
+143-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:126:13-55
+144            android:exported="false" />
+144-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:127:13-37
+145        <activity
+145-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:128:9-130:40
+146            android:name="com.jd.ad.demo.simple.EFeedCaseActivity"
+146-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:129:13-53
+147            android:exported="false" />
+147-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:130:13-37
+148        <activity
+148-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:131:9-133:40
+149            android:name="com.jd.ad.demo.simple.EBannerCaseActivity"
+149-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:132:13-55
+150            android:exported="false" />
+150-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:133:13-37
+151        <activity
+151-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:134:9-136:40
+152            android:name="com.jd.ad.demo.simple.EInterstitialCaseActivity"
+152-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:135:13-61
+153            android:exported="false" />
+153-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:136:13-37
+154        <activity
+154-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:137:9-139:40
+155            android:name="com.jd.ad.demo.simple.NFeedCaseActivity"
+155-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:138:13-53
+156            android:exported="false" />
+156-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:139:13-37
+157        <activity
+157-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:140:9-142:40
+158            android:name="com.jd.ad.demo.simple.NInterstitialCaseActivity"
+158-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:141:13-61
+159            android:exported="false" />
+159-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:142:13-37
+160        <activity
+160-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:143:9-145:40
+161            android:name="com.jd.ad.demo.simple.NBannerCaseActivity"
+161-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:144:13-55
+162            android:exported="false" />
+162-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:145:13-37
+163        <activity
+163-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:146:9-148:40
+164            android:name="com.jd.ad.demo.simple.NSplashCaseActivity"
+164-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:147:13-55
+165            android:exported="false" />
+165-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:148:13-37
+166        <activity
+166-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:149:9-151:40
+167            android:name="com.jd.ad.demo.tool.ToolsActivity"
+167-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:150:13-47
+168            android:exported="false" />
+168-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:151:13-37
+169        <activity
+169-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:152:9-154:40
+170            android:name="com.jd.ad.demo.tool.TInfrastructureActivity"
+170-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:153:13-57
+171            android:exported="false" />
+171-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:154:13-37
+172        <activity
+172-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:155:9-157:40
+173            android:name="com.jd.ad.demo.tool.TAccessActivity"
+173-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:156:13-49
+174            android:exported="false" />
+174-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:157:13-37
+175        <activity
+175-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:158:9-160:40
+176            android:name="com.jd.ad.demo.tool.TPrivateActivity"
+176-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:159:13-50
+177            android:exported="false" />
+177-->/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:160:13-37
+178        <activity
+178-->[jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c23f0e776f0d2202fb3484f382f9099f/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804/AndroidManifest.xml:18:9-21:50
+179            android:name="com.jd.ad.sdk.bl.adinteraction.deeplink.JADWebViewActivity"
+179-->[jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c23f0e776f0d2202fb3484f382f9099f/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804/AndroidManifest.xml:19:13-86
+180            android:exported="false"
+180-->[jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c23f0e776f0d2202fb3484f382f9099f/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804/AndroidManifest.xml:20:13-37
+181            android:theme="@style/JadWebTheme" />
+181-->[jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c23f0e776f0d2202fb3484f382f9099f/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804/AndroidManifest.xml:21:13-47
+182
+183        <provider
+183-->[jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c23f0e776f0d2202fb3484f382f9099f/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804/AndroidManifest.xml:23:9-26:40
+184            android:name="com.jd.ad.sdk.dl.cache.multiprocess.JADMultiProvider"
+184-->[jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c23f0e776f0d2202fb3484f382f9099f/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804/AndroidManifest.xml:24:13-80
+185            android:authorities="com.jd.sdkceshiandroid.JADMultiProvider"
+185-->[jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c23f0e776f0d2202fb3484f382f9099f/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804/AndroidManifest.xml:25:13-68
+186            android:exported="false" />
+186-->[jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c23f0e776f0d2202fb3484f382f9099f/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922155804/AndroidManifest.xml:26:13-37
+187    </application>
+188
+189</manifest>
