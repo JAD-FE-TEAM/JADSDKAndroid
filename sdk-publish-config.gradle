@@ -6,7 +6,8 @@ afterEvaluate {
     publishing {
         publications {
             // Creates a Maven publication called "release".
-            jingdongRelease(MavenPublication) {
+            release(MavenPublication) {
+//            jingdongRelease(MavenPublication) {
                 // Applies the component for the release build variant.
 //                from components.jingdongRelease
 
