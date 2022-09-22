@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jd.ad.sdk">
+
+    <!-- minSdkVersion如果用${minSdkVersion}变量，在编译SO的时候会识别不到而报错，所以这里用数字 -->
+    <uses-sdk
+        android:targetSdkVersion="${targetSdkVersion}"
+        tools:ignore="GradleOverrides" />
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+    </queries>
+    <application>
+        <activity
+            android:name=".bl.adinteraction.deeplink.JADWebViewActivity"
+            android:exported="false"
+            android:theme="@style/JadWebTheme" />
+        <provider
+            android:name=".dl.cache.multiprocess.JADMultiProvider"
+            android:authorities="${applicationId}.JADMultiProvider"
+            android:exported="false" />
+    </application>
+</manifest>
