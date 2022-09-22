@@ -1,0 +1,479 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:2:1-162:12
+INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:2:1-162:12
+INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:2:1-162:12
+INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:2:1-162:12
+MERGED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:2:1-29:12
+MERGED from [oaid_sdk_1.0.23.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c48bd8f7f532599720a02ddfb8377d4b/transformed/jetified-oaid_sdk_1.0.23/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/3964a10da3aa6061938d9a1eb3dd9ab2/transformed/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/fengyiyi/.gradle/caches/transforms-3/b49021c9b460f5c5ea12fd16d98a0fc5/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/52f30575bc48373656660f39df787907/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/fengyiyi/.gradle/caches/transforms-3/aec29ff393a34cffd25840281d82e8b1/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/695174d1249a2c0b63bf4996f9d02884/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/1041b8f12d2aa8353a0034cf25a5a006/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/4332d910acbb649af0406c14fc497580/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/8305d1df8ce4bb7035627497b74cc697/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/991c87fe0f11341333f4181c0b97755b/transformed/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/0fcd122b6097c50c65b7d5619d481bbe/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/5a5e9237716f71af85d6f4c7be5c8adc/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/7b89ee7f080bed8ee1dd77123d4c0419/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/b033e1fc8a8e0c86de614c8ca218d0eb/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/ec177292065455154a958dc20efdbf2f/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/1d33788ffc43d5843f1e69e6f62c9a28/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/d4b638cb7cc099356542e53f2c44f207/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/6c895a9e082d9c9e9c2898458cb26a17/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/099f3f65557ddd003fd9d6c91253ca00/transformed/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/accc053cca359ccedbebbe123ee43f67/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/b65d0dc03c16b8d76c5e16a253509bb0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/fengyiyi/.gradle/caches/transforms-3/b4459c75f2d20f8c6db42ef9c620114d/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/17a40b9113949ded7bf2fa3be3beddfc/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/de06343b52db40f25f74aad2846a02de/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/10e7d14dee25945c5cb7fe5b77e2f693/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/55fab3fecaa53a2dc1f539c3a289f9fe/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/e02e0a9b363d289e1456d61f97991405/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/bdfebac63488d5e9b6800e2a4172cb36/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/ac519119bf62c2884cfcc2cfc3b564a4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/1d36d4b5cb92a17b6a10f6d35ce52cc8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/68d22e25f00a14c207a280d78d6a78e5/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:2:1-162:12
+INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:2:1-162:12
+INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:2:1-162:12
+	package
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml
+		INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:2:1-162:12
+		INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:2:1-162:12
+		INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:22:5-77
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:22:22-74
+uses-sdk
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:24:5-58
+INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:24:5-58
+INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:24:5-58
+MERGED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:6:5-9:42
+MERGED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:6:5-9:42
+MERGED from [oaid_sdk_1.0.23.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c48bd8f7f532599720a02ddfb8377d4b/transformed/jetified-oaid_sdk_1.0.23/AndroidManifest.xml:8:5-11:63
+MERGED from [oaid_sdk_1.0.23.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c48bd8f7f532599720a02ddfb8377d4b/transformed/jetified-oaid_sdk_1.0.23/AndroidManifest.xml:8:5-11:63
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/3964a10da3aa6061938d9a1eb3dd9ab2/transformed/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/3964a10da3aa6061938d9a1eb3dd9ab2/transformed/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/fengyiyi/.gradle/caches/transforms-3/b49021c9b460f5c5ea12fd16d98a0fc5/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/fengyiyi/.gradle/caches/transforms-3/b49021c9b460f5c5ea12fd16d98a0fc5/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/52f30575bc48373656660f39df787907/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/52f30575bc48373656660f39df787907/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/fengyiyi/.gradle/caches/transforms-3/aec29ff393a34cffd25840281d82e8b1/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/fengyiyi/.gradle/caches/transforms-3/aec29ff393a34cffd25840281d82e8b1/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/695174d1249a2c0b63bf4996f9d02884/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/695174d1249a2c0b63bf4996f9d02884/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/1041b8f12d2aa8353a0034cf25a5a006/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/1041b8f12d2aa8353a0034cf25a5a006/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/4332d910acbb649af0406c14fc497580/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/4332d910acbb649af0406c14fc497580/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/8305d1df8ce4bb7035627497b74cc697/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/8305d1df8ce4bb7035627497b74cc697/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/991c87fe0f11341333f4181c0b97755b/transformed/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/991c87fe0f11341333f4181c0b97755b/transformed/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/0fcd122b6097c50c65b7d5619d481bbe/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/0fcd122b6097c50c65b7d5619d481bbe/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/5a5e9237716f71af85d6f4c7be5c8adc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/5a5e9237716f71af85d6f4c7be5c8adc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/7b89ee7f080bed8ee1dd77123d4c0419/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/7b89ee7f080bed8ee1dd77123d4c0419/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/b033e1fc8a8e0c86de614c8ca218d0eb/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/b033e1fc8a8e0c86de614c8ca218d0eb/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/ec177292065455154a958dc20efdbf2f/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/ec177292065455154a958dc20efdbf2f/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/1d33788ffc43d5843f1e69e6f62c9a28/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/1d33788ffc43d5843f1e69e6f62c9a28/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/d4b638cb7cc099356542e53f2c44f207/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/d4b638cb7cc099356542e53f2c44f207/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/6c895a9e082d9c9e9c2898458cb26a17/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/6c895a9e082d9c9e9c2898458cb26a17/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/099f3f65557ddd003fd9d6c91253ca00/transformed/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/099f3f65557ddd003fd9d6c91253ca00/transformed/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/accc053cca359ccedbebbe123ee43f67/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/accc053cca359ccedbebbe123ee43f67/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/b65d0dc03c16b8d76c5e16a253509bb0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/b65d0dc03c16b8d76c5e16a253509bb0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/fengyiyi/.gradle/caches/transforms-3/b4459c75f2d20f8c6db42ef9c620114d/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/fengyiyi/.gradle/caches/transforms-3/b4459c75f2d20f8c6db42ef9c620114d/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/17a40b9113949ded7bf2fa3be3beddfc/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/17a40b9113949ded7bf2fa3be3beddfc/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/de06343b52db40f25f74aad2846a02de/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/de06343b52db40f25f74aad2846a02de/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/10e7d14dee25945c5cb7fe5b77e2f693/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/10e7d14dee25945c5cb7fe5b77e2f693/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/55fab3fecaa53a2dc1f539c3a289f9fe/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/55fab3fecaa53a2dc1f539c3a289f9fe/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/e02e0a9b363d289e1456d61f97991405/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/e02e0a9b363d289e1456d61f97991405/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/bdfebac63488d5e9b6800e2a4172cb36/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/bdfebac63488d5e9b6800e2a4172cb36/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/ac519119bf62c2884cfcc2cfc3b564a4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/ac519119bf62c2884cfcc2cfc3b564a4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/1d36d4b5cb92a17b6a10f6d35ce52cc8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/1d36d4b5cb92a17b6a10f6d35ce52cc8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/68d22e25f00a14c207a280d78d6a78e5/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/68d22e25f00a14c207a280d78d6a78e5/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:24:5-58
+INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:24:5-58
+	tools:overrideLibrary
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:24:15-55
+	android:targetSdkVersion
+		INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:24:5-58
+		INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml
+	tools:ignore
+		ADDED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:9:9-39
+	android:minSdkVersion
+		INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:24:5-58
+		INJECTED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml
+application
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:26:5-161:19
+MERGED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:17:5-27:19
+MERGED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:17:5-27:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/fengyiyi/.gradle/caches/transforms-3/b49021c9b460f5c5ea12fd16d98a0fc5/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/fengyiyi/.gradle/caches/transforms-3/b49021c9b460f5c5ea12fd16d98a0fc5/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/fengyiyi/.gradle/caches/transforms-3/aec29ff393a34cffd25840281d82e8b1/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/fengyiyi/.gradle/caches/transforms-3/aec29ff393a34cffd25840281d82e8b1/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/099f3f65557ddd003fd9d6c91253ca00/transformed/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/099f3f65557ddd003fd9d6c91253ca00/transformed/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/accc053cca359ccedbebbe123ee43f67/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/accc053cca359ccedbebbe123ee43f67/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/fengyiyi/.gradle/caches/transforms-3/b4459c75f2d20f8c6db42ef9c620114d/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/fengyiyi/.gradle/caches/transforms-3/b4459c75f2d20f8c6db42ef9c620114d/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/fengyiyi/.gradle/caches/transforms-3/099f3f65557ddd003fd9d6c91253ca00/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:30:9-41
+	android:roundIcon
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:31:9-54
+	android:icon
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:29:9-43
+	android:allowBackup
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:28:9-36
+	android:theme
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:32:9-41
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:27:9-40
+activity#com.jd.ad.demo.expressad.feed.EFeedAdSimulateActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:34:13-67
+activity#com.jd.ad.demo.expressad.feed.EFeedAdScrollShowActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:37:13-69
+activity#com.jd.ad.demo.expressad.feed.EFeedAdScrollActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:40:13-65
+activity#com.jd.ad.demo.expressad.feed.EFeedAdListShowActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:43:13-67
+activity#com.jd.ad.demo.expressad.feed.EFeedAdShowActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:46:13-63
+activity#com.jd.ad.demo.expressad.feed.EFeedAdRecyclerShowActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:49:13-71
+activity#com.jd.ad.demo.expressad.feed.EFeedAdRecyclerActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:52:13-67
+meta-data#android.max_aspect
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:55:9-57:35
+	android:value
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:57:13-32
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:56:13-46
+activity#com.jd.ad.demo.DemoMainActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:59:9-62:51
+	android:launchMode
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:62:13-48
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:60:13-45
+activity#com.jd.ad.demo.expressad.splash.ESplashAdActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:63:9-72:20
+	android:screenOrientation
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:66:13-49
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:65:13-36
+	android:theme
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:67:13-47
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:64:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:68:13-71:29
+action#android.intent.action.MAIN
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:69:17-69
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:69:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:70:17-77
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:70:27-74
+activity#com.jd.ad.demo.expressad.splash.ESplashManagerActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:73:9-77:60
+	android:screenOrientation
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:76:13-49
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:75:13-37
+	android:theme
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:77:13-57
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:74:13-68
+activity#com.jd.ad.demo.expressad.splash.ESplashMultiRequestActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:78:9-82:60
+	android:screenOrientation
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:81:13-49
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:80:13-37
+	android:theme
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:82:13-57
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:79:13-73
+activity#com.jd.ad.demo.expressad.splash.EMultiSplashAdActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:83:9-88:60
+	android:screenOrientation
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:87:13-49
+	android:process
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:86:13-52
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:85:13-37
+	android:theme
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:88:13-57
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:84:13-68
+activity#com.jd.ad.demo.expressad.banner.EBannerAdActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:89:9-92:36
+	android:label
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:92:13-33
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:91:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:90:13-63
+activity#com.jd.ad.demo.expressad.interstitial.EInterstitialAdActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:93:9-95:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:95:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:94:13-75
+activity#com.jd.ad.demo.expressad.feed.EFeedManagerActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:96:9-98:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:97:13-64
+activity#com.jd.ad.demo.expressad.feed.EFeedAdActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:99:9-101:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:101:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:100:13-59
+activity#com.jd.ad.demo.expressad.feed.EFeedAdListActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:102:9-104:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:104:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:103:13-63
+activity#com.jd.ad.demo.nativead.splash.NSplashAdManagerActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:105:9-107:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:107:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:106:13-69
+activity#com.jd.ad.demo.nativead.splash.NSplashAdActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:108:9-112:50
+	android:screenOrientation
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:111:13-49
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:110:13-37
+	android:theme
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:112:13-47
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:109:13-62
+activity#com.jd.ad.demo.nativead.banner.NBannerAdActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:113:9-115:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:115:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:114:13-62
+activity#com.jd.ad.demo.nativead.interstitial.NInterstitialAdActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:116:9-118:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:118:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:117:13-74
+activity#com.jd.ad.demo.nativead.feed.NFeedAdActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:119:9-121:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:121:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:120:13-58
+activity#com.jd.ad.demo.simple.SimpleMainActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:122:9-124:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:124:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:123:13-54
+activity#com.jd.ad.demo.simple.ESplashCaseActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:125:9-127:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:127:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:126:13-55
+activity#com.jd.ad.demo.simple.EFeedCaseActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:128:9-130:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:130:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:129:13-53
+activity#com.jd.ad.demo.simple.EBannerCaseActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:131:9-133:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:133:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:132:13-55
+activity#com.jd.ad.demo.simple.EInterstitialCaseActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:134:9-136:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:136:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:135:13-61
+activity#com.jd.ad.demo.simple.NFeedCaseActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:137:9-139:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:139:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:138:13-53
+activity#com.jd.ad.demo.simple.NInterstitialCaseActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:140:9-142:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:142:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:141:13-61
+activity#com.jd.ad.demo.simple.NBannerCaseActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:143:9-145:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:145:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:144:13-55
+activity#com.jd.ad.demo.simple.NSplashCaseActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:146:9-148:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:148:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:147:13-55
+activity#com.jd.ad.demo.tool.ToolsActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:149:9-151:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:151:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:150:13-47
+activity#com.jd.ad.demo.tool.TInfrastructureActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:152:9-154:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:154:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:153:13-57
+activity#com.jd.ad.demo.tool.TAccessActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:155:9-157:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:156:13-49
+activity#com.jd.ad.demo.tool.TPrivateActivity
+ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:158:9-160:40
+	android:exported
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:160:13-37
+	android:name
+		ADDED from /Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/AndroidManifest.xml:159:13-50
+queries
+ADDED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:11:5-15:15
+intent#action:name:android.intent.action.MAIN
+ADDED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:12:9-14:18
+activity#com.jd.ad.sdk.bl.adinteraction.deeplink.JADWebViewActivity
+ADDED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:18:9-21:50
+	android:exported
+		ADDED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:20:13-37
+	android:theme
+		ADDED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:21:13-47
+	android:name
+		ADDED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:19:13-86
+provider#com.jd.ad.sdk.dl.cache.multiprocess.JADMultiProvider
+ADDED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:23:9-26:40
+	android:authorities
+		ADDED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:25:13-68
+	android:exported
+		ADDED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503.aar] /Users/fengyiyi/.gradle/caches/transforms-3/87d41a73e972103feed16632756c02a3/transformed/jetified-jad_yun_sdk_jingdong_2.0.1_20220901_20220922095503/AndroidManifest.xml:24:13-80
+uses-permission#com.asus.msa.SupplementaryDID.ACCESS
+ADDED from [oaid_sdk_1.0.23.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c48bd8f7f532599720a02ddfb8377d4b/transformed/jetified-oaid_sdk_1.0.23/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [oaid_sdk_1.0.23.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c48bd8f7f532599720a02ddfb8377d4b/transformed/jetified-oaid_sdk_1.0.23/AndroidManifest.xml:13:22-73
+uses-permission#freemme.permission.msa
+ADDED from [oaid_sdk_1.0.23.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c48bd8f7f532599720a02ddfb8377d4b/transformed/jetified-oaid_sdk_1.0.23/AndroidManifest.xml:15:5-62
+	android:name
+		ADDED from [oaid_sdk_1.0.23.aar] /Users/fengyiyi/.gradle/caches/transforms-3/c48bd8f7f532599720a02ddfb8377d4b/transformed/jetified-oaid_sdk_1.0.23/AndroidManifest.xml:15:22-59

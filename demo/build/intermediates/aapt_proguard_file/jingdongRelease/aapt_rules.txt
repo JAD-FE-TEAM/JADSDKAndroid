@@ -1,0 +1,97 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class com.jd.ad.demo.DemoApplication { <init>(); }
+-keep class com.jd.ad.demo.DemoMainActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.banner.EBannerAdActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.feed.EFeedAdActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.feed.EFeedAdListActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.feed.EFeedAdListShowActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.feed.EFeedAdRecyclerActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.feed.EFeedAdRecyclerShowActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.feed.EFeedAdScrollActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.feed.EFeedAdScrollShowActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.feed.EFeedAdShowActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.feed.EFeedAdSimulateActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.feed.EFeedManagerActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.interstitial.EInterstitialAdActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.splash.EMultiSplashAdActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.splash.ESplashAdActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.splash.ESplashManagerActivity { <init>(); }
+-keep class com.jd.ad.demo.expressad.splash.ESplashMultiRequestActivity { <init>(); }
+-keep class com.jd.ad.demo.nativead.banner.NBannerAdActivity { <init>(); }
+-keep class com.jd.ad.demo.nativead.feed.NFeedAdActivity { <init>(); }
+-keep class com.jd.ad.demo.nativead.interstitial.NInterstitialAdActivity { <init>(); }
+-keep class com.jd.ad.demo.nativead.splash.NSplashAdActivity { <init>(); }
+-keep class com.jd.ad.demo.nativead.splash.NSplashAdManagerActivity { <init>(); }
+-keep class com.jd.ad.demo.simple.EBannerCaseActivity { <init>(); }
+-keep class com.jd.ad.demo.simple.EFeedCaseActivity { <init>(); }
+-keep class com.jd.ad.demo.simple.EInterstitialCaseActivity { <init>(); }
+-keep class com.jd.ad.demo.simple.ESplashCaseActivity { <init>(); }
+-keep class com.jd.ad.demo.simple.NBannerCaseActivity { <init>(); }
+-keep class com.jd.ad.demo.simple.NFeedCaseActivity { <init>(); }
+-keep class com.jd.ad.demo.simple.NInterstitialCaseActivity { <init>(); }
+-keep class com.jd.ad.demo.simple.NSplashCaseActivity { <init>(); }
+-keep class com.jd.ad.demo.simple.SimpleMainActivity { <init>(); }
+-keep class com.jd.ad.demo.tool.TAccessActivity { <init>(); }
+-keep class com.jd.ad.demo.tool.TInfrastructureActivity { <init>(); }
+-keep class com.jd.ad.demo.tool.TPrivateActivity { <init>(); }
+-keep class com.jd.ad.demo.tool.ToolsActivity { <init>(); }
+-keep class com.jd.ad.sdk.bl.adinteraction.deeplink.JADWebViewActivity { <init>(); }
+-keep class com.jd.ad.sdk.dl.cache.multiprocess.JADMultiProvider { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.swiperefreshlayout.widget.SwipeRefreshLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.jd.ad.demo.view.HeadBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.jd.ad.demo.view.LoadMoreListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.jd.ad.demo.view.LoadMoreRecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.jd.ad.sdk.bl.adinteraction.deeplink.LollipopFixedWebView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.jd.ad.sdk.lottie.LottieAnimationView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.jd.ad.sdk.splash.JADSplashSkipView { <init>(android.content.Context, android.util.AttributeSet); }
+
