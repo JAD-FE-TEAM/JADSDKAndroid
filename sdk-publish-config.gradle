@@ -1,0 +1,49 @@
+apply plugin: 'maven-publish'
+
+// Because the components are created only during the afterEvaluate phase, you must
+// configure your publications using the afterEvaluate() lifecycle method.
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            jingdongRelease(MavenPublication) {
+                // Applies the component for the release build variant.
+//                from components.jingdongRelease
+
+                // You can then customize attributes of the publication as shown below.
+                groupId = 'com.github.JAD-FE-TEAM'
+                artifactId = project.name
+                version = rootProject.ext.sdkVersionName
+            }
+            // Creates a Maven publication called “debug”.
+//            jingdongDebug(MavenPublication) {
+//                // Applies the component for the debug build variant.
+//                from components.jingdongDebug
+//
+//                groupId = 'com.example.MyLibrary'
+//                artifactId = 'final-debug'
+//                version = '1.0'
+//            }
+        }
+// https://juejin.cn/post/6844904185754812423
+//        repositories {
+//            // 定义一个 maven 仓库
+//            maven {
+//                // 可以有且仅有一个仓库不指定 name 属性，会隐式设置为 Maven
+//                // 根据 versionName 来判断仓库地址
+//                url = versionName.endsWith('SNAPSHOT') ? SNAPSHOT_REPOSITORY_URL : RELEASE_REPOSITORY_URL
+//                // 仓库用户名密码
+//                credentials {
+//                    username = "shine"
+//                    password = "shine"
+//                }
+//            }
+//            // 定义第二个 maven 仓库，名为 Nexus
+//            maven {
+//                // 必须显示指定 name
+//                name = "nexus"
+//                url = versionName.endsWith('SNAPSHOT') ? SNAPSHOT_REPOSITORY_URL : RELEASE_REPOSITORY_URL
+//            }
+//        }
+    }
+}
