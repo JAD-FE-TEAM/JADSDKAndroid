@@ -64,16 +64,16 @@ android {
         abortOnError false
     }
 
-    flavorDimensions "channel"
-
-    productFlavors {
-        jingdong {
-            dimension "channel"
-        }
-        xiaomi {
-            dimension "channel"
-        }
-    }
+//    flavorDimensions "channel"
+//
+//    productFlavors {
+//        jingdong {
+//            dimension "channel"
+//        }
+//        xiaomi {
+//            dimension "channel"
+//        }
+//    }
 
     applicationVariants.all { variant ->
         if (variant.buildType.name == "release") {

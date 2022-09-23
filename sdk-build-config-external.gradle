@@ -19,17 +19,31 @@ android {
 
 // Because the components are created only during the afterEvaluate phase, you must
 // configure your publications using the afterEvaluate() lifecycle method.
+//afterEvaluate {
+//    publishing {
+//        publications {
+//            release(MavenPublication) {
+//                from components.release
+//
+//                groupId = 'com.github.vinchamp77'
+//                artifactId = 'demo-simple-android-lib'
+//                version = '0.0.0'
+//            }
+//        }
+//    }
+//}
 afterEvaluate {
     publishing {
         publications {
             // Creates a Maven publication called "release".
-            jingdongRelease(MavenPublication) {
+            release(MavenPublication) {
                 // Applies the component for the release build variant.
-//                from components.jingdongRelease
+//                from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.github.JAD-FE-TEAM.JADYunAndroid'
-                artifactId = project.name
+                groupId = 'com.github.JAD-FE-TEAM'
+                artifactId = 'JADSDKAndroid'
+//                artifactId = project.name
                 version = rootProject.ext.sdkVersionName
             }
             // Creates a Maven publication called “debug”.
