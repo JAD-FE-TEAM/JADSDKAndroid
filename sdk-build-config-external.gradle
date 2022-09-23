@@ -42,8 +42,9 @@ afterEvaluate {
 
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.github.JAD-FE-TEAM'
-                artifactId = 'JADSDKAndroid'
-//                artifactId = project.name
+                groupId = 'com.github.JAD-FE-TEAM.JADSDKAndroid'
+//                artifactId = 'JADSDKAndroid'
+                artifactId = project.name
                 version = rootProject.ext.sdkVersionName
             }
             // Creates a Maven publication called “debug”.
