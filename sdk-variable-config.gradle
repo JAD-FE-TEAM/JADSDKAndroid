@@ -1,0 +1,12 @@
+/**
+ * 更新版本只需改此文件即可
+ *
+ * isRelease: 构建的类型：develop or release，开发时请设置成false，打包时设置成true
+ *      false: for develop/debug run, 运行时通过源码引入到其他模块中
+ *      true: for release package, 运行时通过aar引入到其他模块中
+ */
+ext {
+    sdkVersionCode = 20220922
+    sdkVersionName = '2.0.13'
+    isRelease = true
+}
