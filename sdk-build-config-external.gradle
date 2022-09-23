@@ -41,7 +41,7 @@ afterEvaluate {
 //                from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.github.JAD-FE-TEAM'
+//                groupId = 'com.github.JAD-FE-TEAM'
                 groupId = 'com.github.JAD-FE-TEAM.JADSDKAndroid'
 //                artifactId = 'JADSDKAndroid'
                 artifactId = project.name
