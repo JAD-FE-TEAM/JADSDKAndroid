@@ -2,9 +2,9 @@
  * 打正式包时，Demo要依赖的SDK
  */
 dependencies {
-//    implementation fileTree(dir: 'libs', include: ['jad_yun_sdk_jingdong_*.aar'])
+    implementation fileTree(dir: 'libs', include: ['jad_yun_sdk_jingdong_*.aar'])
 
-    implementation 'com.github.JAD-FE-TEAM.JADSDKAndroid:jad_yun_sdk:2.0.14'
+//    implementation 'com.github.JAD-FE-TEAM.JADSDKAndroid:jad_yun_sdk:2.0.14'
 
 //    implementation 'com.github.JAD-FE-TEAM.JADSDKAndroid:jad_yun_sdk:2.0.14'
 //    implementation 'com.github.JAD-FE-TEAM.JADYunAndroid:jad_yun_sdk:1.0.0'   //必选，核心功能
