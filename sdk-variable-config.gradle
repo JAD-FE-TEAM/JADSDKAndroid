@@ -7,6 +7,6 @@
  */
 ext {
     sdkVersionCode = 20220922
-    sdkVersionName = '2.0.20'
+    sdkVersionName = '2.0.21'
     isRelease = true
 }
