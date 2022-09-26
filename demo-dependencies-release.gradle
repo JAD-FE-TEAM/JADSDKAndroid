@@ -1,0 +1,9 @@
+/**
+ * 打正式包时，Demo要依赖的SDK
+ */
+dependencies {
+    // 方式一，手动接入
+//    implementation fileTree(dir: 'libs', include: ['jad_yun_sdk_jingdong_*.aar'])
+    // 方式二，自动接入
+     implementation 'com.github.JAD-FE-TEAM.JADSDKAndroid:jad_yun_sdk:latest.release'
+}
