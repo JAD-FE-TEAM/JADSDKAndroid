@@ -1,0 +1,4 @@
+#Mon Sep 26 16:21:04 CST 2022
+base.0=/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/dex/jingdongRelease/minifyJingdongReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
