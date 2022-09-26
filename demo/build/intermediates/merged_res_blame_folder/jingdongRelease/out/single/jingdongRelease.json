@@ -1,0 +1,314 @@
+[
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_top_layout.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_top_layout.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_ic_drag.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/ic_drag.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_tools_global_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/tools_global_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_load_more_view.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_load_more_view.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_ad_type_list_item.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_ad_type_list_item.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_launch_top_bg.jpg.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/launch_top_bg.jpg"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_ad_logo_normal.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/ad_logo_normal.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_ad_logo_width_txt.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/ad_logo_width_txt.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_list_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_list_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_layout_native_feed.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/layout_native_feed.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_simple_e_banner_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_simple_e_banner_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_simple_n_banner_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_simple_n_banner_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_ad_simulation_bigpic_item.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_ad_simulation_bigpic_item.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_banner_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_banner_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_manager_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_manager_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_ad_show_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_ad_show_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_splash_manager_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_splash_manager_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_n_feed_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_n_feed_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_ad_type_list_head_item.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_ad_type_list_head_item.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_ad_interstitial_ic.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/ad_interstitial_ic.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_thread_choose_layout.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_thread_choose_layout.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_main_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_main_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_ad_simulation_smallpic_right_item.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_ad_simulation_smallpic_right_item.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_simple_n_feed_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_simple_n_feed_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_simple_e_feed_ad_show_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_simple_e_feed_ad_show_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/drawable_btn_border_clicked.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/drawable/btn_border_clicked.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_simple_n_splash_ad_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_simple_n_splash_ad_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_list_normal_item.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_list_normal_item.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_list_ad_item.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_list_ad_item.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/drawable_btn_border_normal.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/drawable/btn_border_normal.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_ad_id_and_load_layout.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_ad_id_and_load_layout.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/drawable_white_click_selector.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/drawable/white_click_selector.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_single_seek_width.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_single_seek_width.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_ad_feed_ic.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/ad_feed_ic.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/drawable_demo_back_ic.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/drawable/demo_back_ic.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_seek_bar_layout.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_seek_bar_layout.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_n_splash_ad_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_n_splash_ad_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/drawable_click_arrow.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/drawable/click_arrow.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_simple_n_inter_ad_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_simple_n_inter_ad_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_ic_right_arrow.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/ic_right_arrow.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_tools_main_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/tools_main_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_head_bar_layout.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_head_bar_layout.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_ad_simulation_smallpic_left_item.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_ad_simulation_smallpic_left_item.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_scroll_acticity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_scroll_acticity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/drawable_n_feed_ad_bg.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/drawable/n_feed_ad_bg.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_splash_multi_request_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_splash_multi_request_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_layout_native_interstitial.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/layout_native_interstitial.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_multi_splash_manager_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_multi_splash_manager_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_list_show_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_list_show_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_n_splash_manager_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_n_splash_manager_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_ad_splash_ic.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/ad_splash_ic.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_recycle_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_recycle_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/drawable_seekbar_progress_drawable.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/drawable/seekbar_progress_drawable.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_recycler_show_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_recycler_show_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_layout_native_banner.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/layout_native_banner.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_n_inter_ad_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_n_inter_ad_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_inter_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_inter_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_layout_native_feed.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_layout_native_feed.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_simulate_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_simulate_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_n_banner_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_n_banner_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/menu_permissions_menu.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/menu/permissions_menu.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_feed_ad_scroll_show_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_feed_ad_scroll_show_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_simple_e_splash_ad_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_simple_e_splash_ad_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_ad_banner_ic.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/ad_banner_ic.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/drawable_btn_background.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/drawable/btn_background.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_e_splash_ad_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_e_splash_ad_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_tools_ad_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/tools_ad_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_single_seek_height.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_single_seek_height.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_layout_splash_native.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/layout_splash_native.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_layout_ad_tag.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/layout_ad_tag.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_launch_bottom_logo.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/launch_bottom_logo.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/mipmap-xxhdpi_ic_close.png.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/mipmap-xxhdpi/ic_close.png"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_simple_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_simple_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_tools_infrastructure_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/tools_infrastructure_activity.xml"
+    },
+    {
+        "merged": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/build/intermediates/merged_res/jingdongRelease/layout_demo_simple_e_inter_activity.xml.flat",
+        "source": "/Users/fengyiyi/Desktop/JADYunAndroidPackage/demo/src/main/res/layout/demo_simple_e_inter_activity.xml"
+    }
+]
