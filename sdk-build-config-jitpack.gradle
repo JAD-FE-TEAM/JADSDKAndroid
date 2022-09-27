@@ -1,0 +1,51 @@
+/**
+ * minimal configuration for jitpack
+ */
+apply plugin: 'maven-publish'
+apply plugin: 'com.kezong.fat-aar'
+apply from: "$project.rootDir/sdk-variable-config.gradle"
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        minSdkVersion 16
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 28
+        versionCode rootProject.ext.sdkVersionCode
+        versionName rootProject.ext.sdkVersionName
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+//    embed fileTree(dir: "libs", include: ["*.aar"])
+//    implementation fileTree(dir: "libs", include: ["*.jar"])
+    embed fileTree(dir: "libs", include: ["*.aar"])
+//    embed (name:"${project.name}_*", ext:'aar')
+//    embed (name:"${project.name}_jingdong_${android.defaultConfig.versionName}_${rootProject.ext.sdkVersionCode}", ext:'aar')
+}
+
+// Because the components are created only during the afterEvaluate phase, you must
+// configure your publications using the afterEvaluate() lifecycle method.
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                // Applies the component for the release build variant.
+                from components.release
+                // You can then customize attributes of the publication as shown below.
+                groupId = 'com.github.JAD-FE-TEAM'
+                artifactId = project.name
+                version = rootProject.ext.sdkVersionName
+            }
+        }
+    }
+}
